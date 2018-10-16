@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrandingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brandingSetProperty>
+        <propertyName>TextTransformStyle</propertyName>
+        <propertyValue>none</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>BorderColor</propertyName>
+        <propertyValue>#D4D4D4</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>DetailTextColor</propertyName>
+        <propertyValue>rgba(255, 255, 255, 0.6)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>HeaderFonts</propertyName>
+        <propertyValue>Salesforce Sans</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>CardBackgroundColor</propertyName>
+        <propertyValue>rgba(255, 255, 255, 0)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>LoginBackgroundColor</propertyName>
+        <propertyValue>#F4F4F4</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>ActionColor</propertyName>
+        <propertyValue>rgb(255, 197, 0)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>CompanyLogo</propertyName>
+        <propertyValue>/file-asset/CIPLogo?v=1</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>_ActionColorTrans</propertyName>
+        <propertyValue>rgba(255, 197, 0, 0.9)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>LoginBackgroundImage</propertyName>
+        <propertyValue>/file-asset/BGCIP1?v=1</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>PageBackgroundColor</propertyName>
+        <propertyValue>#FFFFFF</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>_LinkColorDarker</propertyName>
+        <propertyValue>#d6a500</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>_ActionColorDarker</propertyName>
+        <propertyValue>#cc9e00</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>_HoverColor</propertyName>
+        <propertyValue>rgba(255, 197, 0, 0.05)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>ErrorFontColor</propertyName>
+        <propertyValue>#ff9e9e</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>OverlayTextColor</propertyName>
+        <propertyValue>#FFFFFF</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>TextColor</propertyName>
+        <propertyValue>rgb(29, 29, 32)</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>PrimaryFont</propertyName>
+        <propertyValue>Salesforce Sans</propertyValue>
+    </brandingSetProperty>
+    <brandingSetProperty>
+        <propertyName>LinkColor</propertyName>
+        <propertyValue>rgb(255, 197, 0)</propertyValue>
+    </brandingSetProperty>
+    <masterLabel>Horizontal_Partner_Community</masterLabel>
+    <type>jepson:branding-jepson</type>
+</BrandingSet>
