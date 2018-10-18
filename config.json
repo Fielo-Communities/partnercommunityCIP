@@ -4,7 +4,7 @@
 	"dependencies":
 	[
 			{
-			"type":"repository",
+			"type":"linkRepository",
 			"version":"master",
 			"name":"CIP"
 			}
