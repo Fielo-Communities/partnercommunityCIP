@@ -4,7 +4,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>richTextValue</name>
-                <value>&lt;p&gt;&lt;img class=&quot;sfdcCbImage&quot; src=&quot;{!contentAsset.Rewards.1}&quot; /&gt;&lt;/p&gt;</value>
+                <value>&lt;p&gt;&lt;img class=&quot;sfdcCbImage&quot; src=&quot;{!contentAsset.CIPTemplate.1}&quot; /&gt;&lt;/p&gt;</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:richTextInline</componentName>
         </componentInstances>
@@ -14,103 +14,103 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>fields</name>
-                <value>FieloPLT__Points__c</value>
+                <name>context</name>
+                <value>GLOBAL</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>hideSelector</name>
-                <value>false</value>
+                <name>recordId</name>
+                <value>{!recordId}</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>subfield</name>
-                <value>FieloPLT__CurrentLevelMember__r.FieloPLT__Level__r.Name</value>
+                <name>width</name>
+                <value>MEDIUM</value>
             </componentInstanceProperties>
-            <componentName>FieloPLT:MemberSelector</componentName>
+            <componentName>forceCommunity:feedPublisher</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
-                <name>columns</name>
-                <value>2</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>defaultFilters</name>
-                <value>Name,FieloPLT__Points__c/range</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>enableSortBy</name>
+                <name>canChangeSorting</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>fields</name>
-                <value>FieloPLT__ExternalURL__c/image,Name,FieloPLT__Points__c</value>
+                <name>defaultFilter</name>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>layout</name>
-                <value>Grid</value>
+                <name>feedDesign</name>
+                <value>DEFAULT</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>linkToDetail</name>
-                <value>Name</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>paging</name>
+                <name>hasFeedSearch</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>quantity</name>
-                <value>6</value>
+                <name>subjectId</name>
+                <value>{!recordId}</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>recordDetailFieldset</name>
-                <value>FieloPLT__ExternalURL__c/image,Name,FieloPLT__Points__c,FieloPLT__Description__c</value>
+                <name>type</name>
+                <value>Home</value>
+            </componentInstanceProperties>
+            <componentName>forceCommunity:forceCommunityFeed</componentName>
+        </componentInstances>
+        <name>content</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>actions</name>
+                <value>[{&quot;name&quot;:&quot;NewAccount&quot;,&quot;isPublic&quot;:true}]</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>redemptionColumns</name>
-                <value>4</value>
+                <name>label</name>
+                <value>New</value>
+            </componentInstanceProperties>
+            <componentName>forceCommunity:createRecordButton</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>listViewIdForNavigation</name>
+                <value>00B5A000008wxZKUAY</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>redemptionFields</name>
-                <value>Name,FieloPLT__Points__c,FieloPLT__Status__c</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>redemptionFilterFields</name>
-                <value>FieloPLT__Status__c,CreatedDate/range</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>redemptionLayout</name>
-                <value>AccordionDetail</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>redemptionPaging</name>
+                <name>navigateToListView</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>redemptionQuantity</name>
+                <name>pageSize</name>
                 <value>5</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>redemptionRedemptionItemRelatedFields</name>
-                <value>FieloPLT__Reward__r.FieloPLT__ExternalURL__c/image,FieloPLT__Reward__r.Name,FieloPLT__Points__c</value>
+                <name>sortBy</name>
+                <value>CreatedDate</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>redemptionShowFilter</name>
-                <value>true</value>
+                <name>title</name>
+                <value>Lead Inbox</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>redemptionShowRedemptionItemRelated</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>redemptionTitleValue</name>
-                <value>My Redemptions</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>titleValue</name>
-                <value>Rewards</value>
-            </componentInstanceProperties>
-            <componentName>FieloPLT:Catalog</componentName>
+            <componentName>forceCommunity:leadInbox</componentName>
         </componentInstances>
-        <name>content</name>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>filterName</name>
+                <value>00B5A000008wxajUAA</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>layout</name>
+                <value>COMPACT</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>5</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>scope</name>
+                <value>Opportunity</value>
+            </componentInstanceProperties>
+            <componentName>forceCommunity:objectHome</componentName>
+        </componentInstances>
+        <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -127,16 +127,16 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
-                <value>Rewards</value>
+                <value>Home</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:seoAssistant</componentName>
         </componentInstances>
         <name>sfdcHiddenRegion</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Rewards</masterLabel>
+    <masterLabel>Home</masterLabel>
     <template>
-        <name>siteforce:sldsOneColLayout</name>
+        <name>siteforce:sldsTwoCol48Layout</name>
     </template>
     <type>CommAppPage</type>
 </FlexiPage>
