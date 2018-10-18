@@ -3,6 +3,10 @@
 	"version":"master",
 	"dependencies":
 	[
-			
+			{
+			"type":"repository",
+			"version":"master",
+			"name":"CIP"
+			}
 	]
 }
