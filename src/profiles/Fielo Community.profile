@@ -81,6 +81,30 @@
 	
 	<!-- Permissoes dos Campos do Objetos -->
 	
+	<!-- Images Permissions -->
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>FieloPLT__Challenge__c.FieloPLT__ExternalURL__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>false</editable>
+		<field>FieloPLT__Challenge__c.FieloPLT__Image__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+
+	 <fieldPermissions>
+		<editable>false</editable>
+		<field>FieloPLT__Promotion__c.FieloPLT__ExternalURL__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+	 <fieldPermissions>
+		<editable>false</editable>
+		<field>FieloPLT__Promotion__c.FieloPLT__Image__c</field>
+		<readable>true</readable>
+	</fieldPermissions>
+	
+	
 	<!-- Agreement -->
     <fieldPermissions>
         <editable>false</editable>
