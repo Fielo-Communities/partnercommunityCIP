@@ -8,6 +8,21 @@
             </componentInstanceProperties>
             <componentName>forceCommunity:richTextInline</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>fields</name>
+                <value>FieloPLT__Points__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideSelector</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>subfield</name>
+                <value>FieloPLT__CurrentLevelMember__r.FieloPLT__Level__r.Name</value>
+            </componentInstanceProperties>
+            <componentName>FieloPLT:MemberSelector</componentName>
+        </componentInstances>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -52,6 +67,81 @@
                 <value>Home</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:forceCommunityFeed</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>badgeMemberRelatedFields</name>
+                <value>Name,FieloPLT__Badge__r.Name</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>columns</name>
+                <value>4</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>enableSortBy</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>fields</name>
+                <value>FieloPLT__Points__c/colorNumber,FieloPLT__Date__c/date,FieloPLT__Type__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>filterFields</name>
+                <value>CreatedDate/range</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>layout</name>
+                <value>Table</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>paging</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>pointRelatedFields</name>
+                <value>Name,FieloPLT__Rule__r.Name,FieloPLT__ChallengeReward__r.Name,FieloPLT__TotalPoints__c,FieloPLT__UsedPoints__c,FieloPLT__ExpiredPoints__c,FieloPLT__Balance__c,FieloPLT__Status__c,FieloPLT__ExpirationDate__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>quantity</name>
+                <value>5</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>recordDetailFieldset</name>
+                <value>FieloPLT__Points__c,FieloPLT__Type__c,FieloPLT__IsProcessed__c/checkbox,FieloPLT__IsReverted__c/checkbox</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>redemptionRelatedFields</name>
+                <value>Name,FieloPLT__Status__c,FieloPLT__Rule__r.Name,FieloPLT__ChallengeReward__r.Name</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showBadgeMemberRelated</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showDateFilter</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showPointRelated</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showRedemptionRelated</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>sortByFields</name>
+                <value>Name</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>titleValue</name>
+                <value>My Transactions</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>useAdvancedOnly</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentName>FieloPLT:MyTransactions</componentName>
         </componentInstances>
         <name>content</name>
         <type>Region</type>
