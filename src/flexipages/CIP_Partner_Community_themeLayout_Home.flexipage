@@ -4,7 +4,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>commThemeGroupId</name>
-                <value>jepsonInnerHeader</value>
+                <value>jepsonHomeHeader</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>navAlignment</name>
@@ -16,7 +16,7 @@
             </componentInstanceProperties>
             <componentName>forceCommunity:themeNav</componentName>
         </componentInstances>
-        <name>73bbd0ad-a25e-4e34-ab27-42c5a222b5bb</name>
+        <name>21e7b868-ab9a-435c-bf12-73f39148cc62</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -47,7 +47,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>commThemeGroupId</name>
-                <value>jepsonInnerHeader</value>
+                <value>jepsonHomeHeader</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>iconColor</name>
@@ -79,7 +79,7 @@
             </componentInstanceProperties>
             <componentName>forceCommunity:themeSearch</componentName>
         </componentInstances>
-        <name>b4e0176b-50c4-4b2d-8952-d010098ff7c5</name>
+        <name>9650356c-060b-4974-9754-f0081f623990</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -118,7 +118,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>commThemeGroupId</name>
-                <value>jepsonInnerHeader</value>
+                <value>jepsonHomeHeader</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>communityBuilderLabel</name>
@@ -182,7 +182,7 @@
             </componentInstanceProperties>
             <componentName>forceCommunity:themeProfileMenu</componentName>
         </componentInstances>
-        <name>01520c26-49cd-41a3-9ec9-543678add99f</name>
+        <name>8017e1a8-8636-4ab9-bbeb-46012cb4f896</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -201,7 +201,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>commThemeGroupId</name>
-                <value>jepsonInnerHeader</value>
+                <value>jepsonHomeHeader</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>containHeader</name>
@@ -217,7 +217,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>dropdownBackgroundHoverColor</name>
-                <value>rgb(233, 176, 19)</value>
+                <value>rgb(255, 197, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>dropdownBorderColor</name>
@@ -237,7 +237,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>linkActiveBorderColor</name>
-                <value>rgb(233, 176, 19)</value>
+                <value>rgb(255, 197, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>linkColor</name>
@@ -245,7 +245,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>linkHoverColor</name>
-                <value>rgb(255, 255, 255)</value>
+                <value>rgba(255, 255, 255, 0.7)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>linkTextShadowColor</name>
@@ -257,11 +257,11 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>nav</name>
-                <value>73bbd0ad-a25e-4e34-ab27-42c5a222b5bb</value>
+                <value>21e7b868-ab9a-435c-bf12-73f39148cc62</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>search</name>
-                <value>b4e0176b-50c4-4b2d-8952-d010098ff7c5</value>
+                <value>9650356c-060b-4974-9754-f0081f623990</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>searchStyle</name>
@@ -285,7 +285,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>themeHeaderProfileMenu</name>
-                <value>01520c26-49cd-41a3-9ec9-543678add99f</value>
+                <value>8017e1a8-8636-4ab9-bbeb-46012cb4f896</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:themeHeaderCompact</componentName>
         </componentInstances>
@@ -320,7 +320,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>commThemeGroupId</name>
-                <value>jepsonInnerHero</value>
+                <value>jepsonHomeHero</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>iconColor</name>
@@ -372,26 +372,26 @@
             </componentInstanceProperties>
             <componentName>forceCommunity:themeSearchHero</componentName>
         </componentInstances>
-        <name>7976255a-b37b-4796-bff2-a35fec85808f</name>
+        <name>58f7952f-3fd0-4213-8c26-2118f35a1a59</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
                 <name>bgImage</name>
-                <value>background: #FFFFFF url(/sfsites/assets/themes/jepson-background.jpg) top center /cover</value>
+                <value>background: #FFFFFF url(/sfsites/c/file-asset/BGCIP1?v=1) top center /cover</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>bgOverlayColor</name>
-                <value>rgba(255, 255, 255, 0.20)</value>
+                <value>rgba(255, 255, 255, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>captionText</name>
-                <value>Our Mission</value>
+                <value>Loyalty First</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>captionTextColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>captionTextShadowColor</name>
@@ -399,23 +399,23 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>contentAlignment</name>
-                <value>right</value>
+                <value>left</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>contentWidth</name>
-                <value>45</value>
+                <value>50</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneBgColor</name>
-                <value>#0A32C6</value>
+                <value>rgb(75, 75, 75)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneBgHoverColor</name>
-                <value>#082695</value>
+                <value>rgb(233, 176, 19)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneBorderColor</name>
-                <value>#0A32C6</value>
+                <value>rgba(255, 255, 255, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneOpenNewTab</name>
@@ -423,15 +423,15 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneText</name>
-                <value>Our Projects</value>
+                <value>Submit Invoices</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneTextColor</name>
-                <value>#FFFFFF</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnOneTextHoverColor</name>
-                <value>#FFFFFF</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnRadius</name>
@@ -439,15 +439,15 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoBgColor</name>
-                <value>rgba(255, 255, 255, 0)</value>
+                <value>rgb(75, 75, 75)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoBgHoverColor</name>
-                <value>rgba(255, 255, 255, 0.9)</value>
+                <value>rgb(233, 176, 19)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoBorderColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgba(0, 0, 0, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoOpenNewTab</name>
@@ -455,19 +455,19 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoText</name>
-                <value>Contact Us</value>
+                <value>Redeem Rewards</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoTextColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaBtnTwoTextHoverColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaShowBtnOne</name>
-                <value>true</value>
+                <value>false</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>ctaShowBtnTwo</name>
@@ -479,15 +479,15 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>heroHeight</name>
-                <value>162</value>
+                <value>100</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>heroWidth</name>
-                <value>1440</value>
+                <value>1920</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>search</name>
-                <value>7976255a-b37b-4796-bff2-a35fec85808f</value>
+                <value>58f7952f-3fd0-4213-8c26-2118f35a1a59</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showCaption</name>
@@ -507,7 +507,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>subtitleTextColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgb(227, 229, 223)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>subtitleTextShadowColor</name>
@@ -515,11 +515,11 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>titleText</name>
-                <value>Your Dream Home</value>
+                <value>Contractor Incentive Program</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>titleTextColor</name>
-                <value>rgba(0, 0, 0, 0.8)</value>
+                <value>rgb(255, 197, 0)</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>titleTextShadowColor</name>
@@ -538,14 +538,14 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>richTextValue</name>
-                <value>&lt;p&gt;&lt;img class=&quot;sfdcCbImage&quot; src=&quot;{!contentAsset.H_Footer_1440.1}&quot; /&gt;&lt;/p&gt;</value>
+                <value>&lt;p&gt;&lt;img class=&quot;sfdcCbImage&quot; src=&quot;{!contentAsset.Footer_CIP_P.1}&quot; /&gt;&lt;/p&gt;</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:richTextInline</componentName>
         </componentInstances>
         <name>themeFooter</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Default</masterLabel>
+    <masterLabel>Home</masterLabel>
     <template>
         <name>siteforce:themeLayoutStarter</name>
         <properties>
@@ -570,7 +570,7 @@
         </properties>
         <properties>
             <name>showHero</name>
-            <value>false</value>
+            <value>true</value>
         </properties>
     </template>
     <type>CommThemeLayoutPage</type>

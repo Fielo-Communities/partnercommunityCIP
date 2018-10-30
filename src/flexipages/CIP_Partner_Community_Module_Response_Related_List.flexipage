@@ -7,38 +7,34 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>canChangeSorting</name>
+                <name>customTitle</name>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>parentRecordId</name>
+                <value>{!parentRecordId}</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListName</name>
+                <value>{!relatedListName}</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showBreadCrumbs</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>feedDesign</name>
-                <value>DEFAULT</value>
+                <name>showCustomTitle</name>
+                <value>false</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>hasFeedSearch</name>
+                <name>showManualRefreshButton</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>subjectId</name>
-                <value>{!recordId}</value>
+                <name>showRowNumbers</name>
+                <value>true</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>type</name>
-                <value>Record</value>
-            </componentInstanceProperties>
-            <componentName>forceCommunity:forceCommunityFeed</componentName>
+            <componentName>forceCommunity:relatedList</componentName>
         </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>recordId</name>
-                <value>{!recordId}</value>
-            </componentInstanceProperties>
-            <componentName>forceCommunity:recordDetail</componentName>
-        </componentInstances>
-        <name>sidebar</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <name>content</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -48,18 +44,15 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>title</name>
-                <value>InvoiceTest</value>
-            </componentInstanceProperties>
             <componentName>forceCommunity:seoAssistant</componentName>
         </componentInstances>
         <name>sfdcHiddenRegion</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>InvoiceTest</masterLabel>
+    <masterLabel>Module Response Related List</masterLabel>
+    <sobjectType>FieloELR__ModuleResponse__c</sobjectType>
     <template>
-        <name>siteforce:sldsTwoCol48Layout</name>
+        <name>siteforce:sldsOneColLayout</name>
     </template>
-    <type>CommAppPage</type>
+    <type>CommRelatedListPage</type>
 </FlexiPage>

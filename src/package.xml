@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <types>
-        <members>CIP_Partner_Community_1_2_2</members>
+    <types>
+        <members>CIP_Partner_Community</members>
         <name>BrandingSet</name>
     </types>
     <types>
@@ -9,11 +9,11 @@
         <name>Community</name>
     </types>
     <types>
-        <members>CIP_Partner_Community_1_2_2</members>
+        <members>CIP_Partner_Community</members>
         <name>CommunityTemplateDefinition</name>
     </types>
     <types>
-        <members>CIP_Partner_Community_1_2_2</members>
+        <members>CIP_Partner_Community</members>
         <name>CommunityThemeDefinition</name>
     </types>
     <types>
@@ -21,48 +21,68 @@
         <name>ContentAsset</name>
     </types>
     <types>
-        <members>CIP_Partner_Community_1_2_2_Account_Management</members>
-        <members>CIP_Partner_Community_1_2_2_Check_Password</members>
-        <members>CIP_Partner_Community_1_2_2_Contact_Support</members>
-        <members>CIP_Partner_Community_1_2_2_Create_Record</members>
-        <members>CIP_Partner_Community_1_2_2_Dashboard_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_Dashboard_List</members>
-        <members>CIP_Partner_Community_1_2_2_Dashboard_Related_List</members>
-        <members>CIP_Partner_Community_1_2_2_Error</members>
-        <members>CIP_Partner_Community_1_2_2_Feed_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_File_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_File_List</members>
-        <members>CIP_Partner_Community_1_2_2_File_Related_List</members>
-        <members>CIP_Partner_Community_1_2_2_Forgot_Password</members>
-        <members>CIP_Partner_Community_1_2_2_Home</members>
-        <members>CIP_Partner_Community_1_2_2_Incentives</members>
-        <members>CIP_Partner_Community_1_2_2_InvoiceTest</members>
-        <members>CIP_Partner_Community_1_2_2_Invoices</members>
-        <members>CIP_Partner_Community_1_2_2_Learning</members>
-        <members>CIP_Partner_Community_1_2_2_Login</members>
-        <members>CIP_Partner_Community_1_2_2_Login_Error</members>
-        <members>CIP_Partner_Community_1_2_2_Messages</members>
-        <members>CIP_Partner_Community_1_2_2_Question_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_Record_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_Record_List</members>
-        <members>CIP_Partner_Community_1_2_2_Register</members>
-        <members>CIP_Partner_Community_1_2_2_Related_Record_List</members>
-        <members>CIP_Partner_Community_1_2_2_Report_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_Report_List</members>
-        <members>CIP_Partner_Community_1_2_2_Report_Related_List</members>
-        <members>CIP_Partner_Community_1_2_2_Resources</members>
-        <members>CIP_Partner_Community_1_2_2_Rewards</members>
-        <members>CIP_Partner_Community_1_2_2_Search</members>
-        <members>CIP_Partner_Community_1_2_2_Sfdc_Page</members>
-        <members>CIP_Partner_Community_1_2_2_Topic_Catalog</members>
-        <members>CIP_Partner_Community_1_2_2_Topic_Detail</members>
-        <members>CIP_Partner_Community_1_2_2_User_List</members>
-        <members>CIP_Partner_Community_1_2_2_User_Profile</members>
-        <members>CIP_Partner_Community_1_2_2_User_Related_List</members>
-        <members>CIP_Partner_Community_1_2_2_User_Settings</members>
-        <members>CIP_Partner_Community_1_2_2_themeLayout_Default</members>
-        <members>CIP_Partner_Community_1_2_2_themeLayout_Home</members>
-        <members>CIP_Partner_Community_1_2_2_themeLayout_Login</members>
+        <members>CIP_Partner_Community_Account_Management</members>
+        <members>CIP_Partner_Community_Check_Password</members>
+        <members>CIP_Partner_Community_Contact_Support</members>
+        <members>CIP_Partner_Community_Course_Detail</members>
+        <members>CIP_Partner_Community_Course_List</members>
+        <members>CIP_Partner_Community_Course_Related_List</members>
+        <members>CIP_Partner_Community_Create_Record</members>
+        <members>CIP_Partner_Community_Dashboard_Detail</members>
+        <members>CIP_Partner_Community_Dashboard_List</members>
+        <members>CIP_Partner_Community_Dashboard_Related_List</members>
+        <members>CIP_Partner_Community_Error</members>
+        <members>CIP_Partner_Community_Feed_Detail</members>
+        <members>CIP_Partner_Community_File_Detail</members>
+        <members>CIP_Partner_Community_File_List</members>
+        <members>CIP_Partner_Community_File_Related_List</members>
+        <members>CIP_Partner_Community_Forgot_Password</members>
+        <members>CIP_Partner_Community_Home</members>
+        <members>CIP_Partner_Community_Incentives</members>
+        <members>CIP_Partner_Community_Invoices</members>
+        <members>CIP_Partner_Community_Learning</members>
+        <members>CIP_Partner_Community_Login</members>
+        <members>CIP_Partner_Community_Login_Error</members>
+        <members>CIP_Partner_Community_Messages</members>
+        <members>CIP_Partner_Community_Module_Detail</members>
+        <members>CIP_Partner_Community_Module_List</members>
+        <members>CIP_Partner_Community_Module_Related_List</members>
+        <members>CIP_Partner_Community_Module_Response_Detail</members>
+        <members>CIP_Partner_Community_Module_Response_List</members>
+        <members>CIP_Partner_Community_Module_Response_Related_List</members>
+        <members>CIP_Partner_Community_Question_Detail</members>
+        <members>CIP_Partner_Community_Record_Detail</members>
+        <members>CIP_Partner_Community_Record_List</members>
+        <members>CIP_Partner_Community_Register</members>
+        <members>CIP_Partner_Community_Related_Record_List</members>
+        <members>CIP_Partner_Community_Report_Detail</members>
+        <members>CIP_Partner_Community_Report_List</members>
+        <members>CIP_Partner_Community_Report_Related_List</members>
+        <members>CIP_Partner_Community_Resources</members>
+        <members>CIP_Partner_Community_Rewards</members>
+        <members>CIP_Partner_Community_Search</members>
+        <members>CIP_Partner_Community_Sfdc_Page</members>
+        <members>CIP_Partner_Community_Topic_Catalog</members>
+        <members>CIP_Partner_Community_Topic_Detail</members>
+        <members>CIP_Partner_Community_User_List</members>
+        <members>CIP_Partner_Community_User_Profile</members>
+        <members>CIP_Partner_Community_User_Related_List</members>
+        <members>CIP_Partner_Community_User_Settings</members>
+        <members>CIP_Partner_Community_themeLayout_Default</members>
+        <members>CIP_Partner_Community_themeLayout_Home</members>
+        <members>CIP_Partner_Community_themeLayout_Login</members>
+        <members>Fielo_Pages_Portal_Course_Detail</members>
+        <members>Fielo_Pages_Portal_Course_List</members>
+        <members>Fielo_Pages_Portal_Course_Related_List</members>
+        <members>Fielo_Pages_Portal_Invoices</members>
+        <members>Fielo_Pages_Portal_Module_Detail</members>
+        <members>Fielo_Pages_Portal_Module_List</members>
+        <members>Fielo_Pages_Portal_Module_Related_List</members>
+        <members>Fielo_Pages_Portal_Module_Response_Detail</members>
+        <members>Fielo_Pages_Portal_Module_Response_List</members>
+        <members>Fielo_Pages_Portal_Module_Response_Related_List</members>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>

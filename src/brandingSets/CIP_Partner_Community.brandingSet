@@ -10,7 +10,7 @@
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>DetailTextColor</propertyName>
-        <propertyValue>rgba(255, 255, 255, 0.6)</propertyValue>
+        <propertyValue>rgb(49, 48, 56)</propertyValue>
     </brandingSetProperty>
     <brandingSetProperty>
         <propertyName>HeaderFonts</propertyName>
