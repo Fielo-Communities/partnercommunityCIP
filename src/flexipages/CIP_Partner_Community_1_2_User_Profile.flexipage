@@ -3,6 +3,13 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>&lt;p&gt;&lt;img class=&quot;sfdcCbImage&quot; src=&quot;{!contentAsset.Profile.1}&quot; /&gt;&amp;nbsp;&lt;/p&gt;</value>
+            </componentInstanceProperties>
+            <componentName>forceCommunity:richTextInline</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
                 <name>fields</name>
                 <value>FieloPLT__Points__c</value>
             </componentInstanceProperties>
@@ -22,46 +29,54 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>courseFilterFields</name>
-                <value>FieloELR__Status__c,FieloELR__StartDate__c,FieloELR__EndDate__c</value>
+                <name>badgeFields</name>
+                <value>Name,FieloPLT__ExternalURL__c/image</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>courseRangedFilterFields</name>
-                <value>FieloELR__StartDate__c,FieloELR__EndDate__c</value>
+                <name>documentFolder</name>
+                <value>00l5A000001uloVQAQ</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>daysToBeConsideredNew</name>
-                <value>30</value>
+                <name>fields</name>
+                <value>FieloPLT__ExternalURL__c/image,Name,FieloPLT__CurrentLevelMember__r.FieloPLT__Level__r.Name</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>daysToBeConsideredWarning</name>
-                <value>15</value>
+                <name>fieldsEdit</name>
+                <value>FieloPLT__Email__c,Name</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>detailFields</name>
-                <value>FieloELR__Course__c.FieloELR__Modules__r,FieloELR__CourseStatus__c.FieloELR__Transactions__r,FieloELR__CourseStatus__c.FieloELR__Trackers__r,FieloELR__CourseStatus__c.FieloELR__Progress__c</value>
+                <name>redemptionFields</name>
+                <value>FieloPLT__Points__c,FieloPLT__Status__c</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>paging</name>
+                <name>redemptionItemFields</name>
+                <value>FieloPLT__Reward__r.FieloPLT__ExternalURL__c/image,FieloPLT__Reward__r.Name,FieloPLT__Points__c</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showBadges</name>
                 <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>pointFields</name>
-                <value>FieloPLT__Points__c</value>
+                <name>showMemberFields</name>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>quantity</name>
-                <value>5</value>
+                <name>showRedemptions</name>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>sortByFields</name>
-                <value>FieloELR__StartDate__c,FieloELR__EndDate__c</value>
+                <name>showTransactions</name>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>titleValue</name>
-                <value>Courses</value>
+                <value>My Profile</value>
             </componentInstanceProperties>
-            <componentName>FieloELR:Courses</componentName>
+            <componentInstanceProperties>
+                <name>transactionFields</name>
+                <value>Name,FieloPLT__Points__c/colorNumber,FieloPLT__Date__c/date,FieloPLT__Type__c</value>
+            </componentInstanceProperties>
+            <componentName>FieloPLT:Profile</componentName>
         </componentInstances>
         <name>content</name>
         <type>Region</type>
@@ -77,10 +92,10 @@
         <name>sfdcHiddenRegion</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Course List</masterLabel>
-    <sobjectType>FieloELR__Course__c</sobjectType>
+    <masterLabel>User Profile</masterLabel>
+    <sobjectType>User</sobjectType>
     <template>
         <name>siteforce:sldsOneColLayout</name>
     </template>
-    <type>CommObjectPage</type>
+    <type>CommRecordPage</type>
 </FlexiPage>
