@@ -81,6 +81,7 @@
 	
 	<!-- Permissoes dos Campos do Objetos -->
 	
+	
 	<!-- Images Permissions -->
 	<fieldPermissions>
 		<editable>false</editable>
@@ -103,7 +104,6 @@
 		<field>FieloPLT__Promotion__c.FieloPLT__Image__c</field>
 		<readable>true</readable>
 	</fieldPermissions>
-	
 	
 	<!-- Agreement -->
     <fieldPermissions>
@@ -1709,6 +1709,96 @@
         <readable>true</readable>
     </fieldPermissions>
 	
+		
+	<!-- Segment -->
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__IsActive__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__ExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__LogicalExpression__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__Program__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__RelatedSegments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Segment__c.FieloPLT__WHEREClause__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	
+	<!-- Tracker -->
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloELR__CourseStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__Event__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPRP__Invoice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__MissionMember__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloELR__ModuleResponse__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__IsOffline__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__IsProcessed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__IsReverted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>false</editable>
+        <field>FieloPLT__Tracker__c.FieloPLT__Transaction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	
 	<!-- Transaction -->
 	<fieldPermissions>
         <editable>false</editable>
@@ -1959,6 +2049,14 @@
 		<allowDelete>false</allowDelete>
 		<allowEdit>false</allowEdit>
 		<allowRead>true</allowRead>
+		<object>FieloPLT__PointType__c</object>
+	</objectPermissions>
+	
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
 		<object>FieloPLT__Program__c</object>
 	</objectPermissions>
 	
@@ -1968,6 +2066,14 @@
 		<allowEdit>false</allowEdit>
 		<allowRead>true</allowRead>
 		<object>FieloPLT__ProgramConsent__c</object>
+	</objectPermissions>
+	
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
+		<object>FieloPLT__ProgramPointType__c</object>
 	</objectPermissions>
 	
 	<objectPermissions>
@@ -2039,6 +2145,22 @@
 		<allowDelete>false</allowDelete>
 		<allowEdit>false</allowEdit>
 		<allowRead>true</allowRead>
+		<object>FieloPLT__Segment__c</object>
+	</objectPermissions>
+	
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
+		<object>FieloPLT__Tracker__c</object>
+	</objectPermissions>
+	
+	<objectPermissions>
+		<allowCreate>false</allowCreate>
+		<allowDelete>false</allowDelete>
+		<allowEdit>false</allowEdit>
+		<allowRead>true</allowRead>
 		<object>FieloPLT__Transaction__c</object>
 	</objectPermissions>
 	
@@ -2057,5 +2179,6 @@
 		<allowRead>true</allowRead>
 		<object>FieloPRP__InvoiceItem__c</object>
 	</objectPermissions>
+	
 	
 </Profile>
