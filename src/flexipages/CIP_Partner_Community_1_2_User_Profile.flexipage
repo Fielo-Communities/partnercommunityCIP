@@ -34,7 +34,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>documentFolder</name>
-                <value>FieloImages</value>
+                <value></value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>fields</name>
